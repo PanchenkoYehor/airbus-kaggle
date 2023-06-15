@@ -4,6 +4,13 @@
 
 To build a semantic segmentation model for https://www.kaggle.com/competitions/airbus-ship-detection/overview using U-net and dice score as a target metric.
 
+## Relevant kaggle dataset to upload my results
+
+- https://www.kaggle.com/datasets/yehorpanchenko/airbus-models - models 
+- https://www.kaggle.com/datasets/yehorpanchenko/six-paths-93504 - list of (image_id, square_i, square_j) of with-ships image squares (after spliting it into 6x6)
+- https://www.kaggle.com/datasets/yehorpanchenko/airbus-loads - contains train and val split
+- https://www.kaggle.com/code/yehorpanchenko/notebookb24de9085f - whole pipeline notebook
+
 ## Approach
 
 ### EDA
