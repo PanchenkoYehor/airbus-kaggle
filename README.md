@@ -41,4 +41,37 @@ To build a semantic segmentation model for https://www.kaggle.com/competitions/a
 - To evaluate models on validation set using IoU metric
 
 ### Results
+The best validation metric is **iou_score: 0.6957** despite model didn't converge and may be trained more
+```
+best_model.h5
+Evaluating best_model.h5...
+35/35 [==============================] - 236s 7s/step - loss: 0.2666 - iou_score: 0.6029 - dice_loss: 0.2666 - binary_focal_loss: 0.0201
 
+best_model (2)_maybe_best.h5
+Evaluating best_model (2)_maybe_best.h5...
+35/35 [==============================] - 211s 6s/step - loss: 0.1817 - iou_score: 0.6957 - dice_loss: 0.1817 - binary_focal_loss: 0.0452
+
+best_model (3).h5
+Evaluating best_model (3).h5...
+35/35 [==============================] - 234s 7s/step - loss: 0.5053 - iou_score: 0.3808 - dice_loss: 0.5053 - binary_focal_loss: 0.1010
+
+best_model_24_05876_val.h5
+Evaluating best_model_24_05876_val.h5...
+35/35 [==============================] - 217s 6s/step - loss: 0.2655 - iou_score: 0.5876 - dice_loss: 0.2655 - binary_focal_loss: 0.0463
+
+25-dice-small_train2-usual_3e-3.h5
+Evaluating 25-dice-small_train2-usual_3e-3.h5...
+35/35 [==============================] - 211s 6s/step - loss: 0.2186 - iou_score: 0.6506 - dice_loss: 0.2186 - binary_focal_loss: 0.0592
+
+25-dice-small_train.h5
+Evaluating 25-dice-small_train.h5...
+35/35 [==============================] - 209s 6s/step - loss: 0.3245 - iou_score: 0.5166 - dice_loss: 0.3245 - binary_focal_loss: 0.0299
+
+2-boundary_2-dice.h5
+Evaluating 2-boundary_2-dice.h5...
+35/35 [==============================] - 209s 6s/step - loss: 0.3556 - iou_score: 0.5263 - dice_loss: 0.3556 - binary_focal_loss: 0.0404
+
+best_model (1).h5
+Evaluating best_model (1).h5..
+35/35 [==============================] - 210s 6s/step - loss: 0.1992 - iou_score: 0.6775 - dice_loss: 0.1992 - binary_focal_loss: 0.0457
+```
